@@ -70,5 +70,12 @@ grid
 
 -just defined a normal grid with two and three colums
 -made it reponsive with breaking points
-"# web-hosting" 
-"# web-hosting" 
+"# web-hosting"
+"# web-hosting"
+
+Callout
+
+-ready to get started section
+
+- used a grid and then previous classes such as buttons
+- used media querries to make a lot of subtle changes
