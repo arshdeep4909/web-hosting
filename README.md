@@ -71,3 +71,4 @@ grid
 -just defined a normal grid with two and three colums
 -made it reponsive with breaking points
 "# web-hosting" 
+"# web-hosting" 
