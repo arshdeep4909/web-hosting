@@ -79,3 +79,10 @@ Callout
 
 - used a grid and then previous classes such as buttons
 - used media querries to make a lot of subtle changes
+
+Collapsible
+
+- creating the footer slider which shows the content on clicking
+  -used javascript to add a class
+- and then in our style sheet we defined the visibility when
+  that particular class was present .
