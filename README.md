@@ -95,3 +95,10 @@ various times in this page
 - This is defined in a dark skewed pattern and also in a white pattern
   just below plan
 - using clip path to get the skewed block
+
+Navigation Bar
+
+- the top menu section that contains a collapsible list
+- used the previouly built collapsible component to
+  design the block
+- a lot of critical adjustments very importnat here
