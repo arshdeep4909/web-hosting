@@ -86,3 +86,12 @@ Collapsible
   -used javascript to add a class
 - and then in our style sheet we defined the visibility when
   that particular class was present .
+
+Block
+
+-just defining the layout of a normal block that is used
+various times in this page
+
+- This is defined in a dark skewed pattern and also in a white pattern
+  just below plan
+- using clip path to get the skewed block
