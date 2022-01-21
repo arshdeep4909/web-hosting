@@ -117,4 +117,11 @@ Domain-block
 - using the block to get the header align to center
 - the input group was already created
 - we used grid to make list responsive
--
+
+Features block
+
+- building out the side content pannel manually
+  -then adding the image
+- using grid--1X2
+- using order property to switch the order for each alternate feature
+- all the content is contained within a container block
