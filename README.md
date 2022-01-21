@@ -102,3 +102,10 @@ Navigation Bar
 - used the previouly built collapsible component to
   design the block
 - a lot of critical adjustments very importnat here
+
+Hero
+
+- the top most component with the black background
+- used gird-1X2 and block component in sync to get
+  the layout
+  -texta align was to be adjusted for larger screens
