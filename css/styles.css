@@ -347,7 +347,9 @@ in our webpage it is grouped with a SEARCH button */
 }
 
 /* Plan */
-
+.plan {
+  transition: all 0.2s ease-out;
+}
 .plan__name {
   color: #fff;
   margin: 0;
@@ -374,6 +376,10 @@ in our webpage it is grouped with a SEARCH button */
 .plan .list__item {
   margin-bottom: 2rem;
 }
+
+.plan--popular {
+  transform: scale(1.1);
+}
 .plan--popular .card__header {
   position: relative;
 }
@@ -387,6 +393,12 @@ in our webpage it is grouped with a SEARCH button */
   right: 5%;
 }
 
+.plan:hover {
+  transform: scale(1.05);
+}
+.plan--popular:hover {
+  transform: scale(1.15);
+}
 @media screen and (min-width: 1024px) {
   .plan__name {
     font-size: 1.4rem;
@@ -732,4 +744,15 @@ in our webpage it is grouped with a SEARCH button */
   .block-domain__prices {
     grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
   }
+}
+
+/* Plans Block */
+
+.block-plans .grid {
+  gap: 8rem 4rem;
+}
+
+.block-plans .card {
+  max-width: 500px;
+  margin: 0 auto;
 }
