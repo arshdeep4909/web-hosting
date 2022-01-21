@@ -201,6 +201,7 @@ a {
   text-transform: uppercase;
   border: 0;
   text-align: center;
+  outline: 0;
 }
 
 .button--outline {
@@ -274,6 +275,7 @@ a {
 
 ::placeholder {
   color: #cdcbd7;
+  font-size: 1.3em;
 }
 
 @media screen and (min-width: 1024px) {
@@ -308,8 +310,8 @@ in our webpage it is grouped with a SEARCH button */
 }
 
 .input-group .icon {
-  width: 25px;
-  height: 20px;
+  width: 2rem;
+  height: 2rem;
   fill: white;
   margin: 0 15px 0 0;
 }
@@ -697,5 +699,37 @@ in our webpage it is grouped with a SEARCH button */
   }
   .hero {
     padding-top: 0;
+  }
+}
+
+/* --------Domain Block--------- */
+
+.block-domain .input-group {
+  box-shadow: 0 0 30px 20px #e6ebee;
+  border: 0;
+  margin: 4rem auto;
+  max-width: 670px;
+  /* these two properties makes sure that the width is not more than 700px
+  auto margin esnrues that the left over space is evely distributed aligning
+  the content in centre */
+}
+
+.block-domain__prices {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 6rem);
+  justify-items: center;
+  align-items: center;
+  font-weight: 600;
+  max-width: 700px;
+  margin: 0 auto;
+  /* these two properties makes sure that the width is not more than 700px
+  auto margin esnrues that the left over space is evely distributed aligning
+  the content in centre */
+}
+
+@media screen and (min-width: 768px) {
+  .block-domain__prices {
+    grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
   }
 }

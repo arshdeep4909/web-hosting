@@ -95,6 +95,8 @@ various times in this page
 - This is defined in a dark skewed pattern and also in a white pattern
   just below plan
 - using clip path to get the skewed block
+- block header can be used to align items in the
+  header at center
 
 Navigation Bar
 
@@ -109,3 +111,10 @@ Hero
 - used gird-1X2 and block component in sync to get
   the layout
   -texta align was to be adjusted for larger screens
+
+Domain-block
+
+- using the block to get the header align to center
+- the input group was already created
+- we used grid to make list responsive
+-
