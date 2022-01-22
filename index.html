@@ -15,59 +15,45 @@
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
-    <section class="showcase block block--dark block--skewed-right">
+    <section class="block-testimonial block">
       <header class="block__header">
-        <h2 class="block__heading">User-friendly Control Panel</h2>
+        <h2>What our Customers are Saying</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus,
+          dignissimos!
+        </p>
       </header>
-
-      <div class="container grid grid--1X2">
-        <img class="showcase__image" src="images/ipad.png" alt="" />
-        <!-- ajsfd -->
-
-        <div>
-          <div class="media">
-            <div class="media__image">
-              <svg class="showcase__icon icon icon--primary">
-                <use xLink:href="images/sprite.svg#snap"></use>
-              </svg>
+      <div class="container">
+        <div class="card testimonial">
+          <div class="grid grid--1X2">
+            <div class="testimonial__image">
+              <img src="images/testimonial.jpg" alt="happy similing customer" />
+              <div class="icon-container icon-container--accent">
+                <svg class="icon icon--white">
+                  <use xLink:href="images/sprite.svg#quotes"></use>
+                </svg>
+              </div>
             </div>
-            <div class="media__body">
-              <h3 class="media__title">Easy Start & Managed Updates</h3>
-              <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                Praesentium, aliquam.
+            <blockquote class="quote">
+              <p class="quote__text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Assumenda dolorum adipisci impedit corrupti deserunt voluptas,
+                alias quis voluptatum nihil eos.
               </p>
-            </div>
-          </div>
-          <!-- afd -->
-          <div class="media">
-            <div class="media__image">
-              <svg class="showcase__icon icon icon--primary">
-                <use xLink:href="images/sprite.svg#growth"></use>
-              </svg>
-            </div>
-            <div class="media__body">
-              <h3 class="media__title">Staging, GIT & WP-CLI</h3>
-              <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                Praesentium, aliquam.
-              </p>
-            </div>
-          </div>
-          <!-- safdsd -->
-          <div class="media">
-            <div class="media__image">
-              <svg class="showcase__icon icon icon--primary">
-                <use xLink:href="images/sprite.svg#wordpress"></use>
-              </svg>
-            </div>
-            <div class="media__body">
-              <h3 class="media__title">Dynamic Caching & More</h3>
-              <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                Praesentium, aliquam.
-              </p>
-            </div>
+              <footer>
+                <div class="media">
+                  <div class="media__image">
+                    <svg class="icon quote__inline">
+                      <use xLink:href="images/sprite.svg#line"></use>
+                    </svg>
+                  </div>
+                  <div class="media__body">
+                    <h3 class="media__title quote__author">John Smith</h3>
+                    <p class="quote__company">ABC Company</p>
+                  </div>
+                </div>
+              </footer>
+            </blockquote>
           </div>
         </div>
       </div>

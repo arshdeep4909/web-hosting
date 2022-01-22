@@ -56,7 +56,6 @@ h2 {
 
 h3 {
   font-size: 3rem;
-  font-weight: 500;
 }
 
 p {
@@ -613,6 +612,7 @@ in our webpage it is grouped with a SEARCH button */
 }
 .block__header {
   text-align: center;
+  margin-bottom: 4rems;
 }
 
 .block__heading {
