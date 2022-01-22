@@ -140,3 +140,22 @@ Showcase Block
   big
 - visibility is visible by default, so we set the
   justify self to end and let a part of it be outside the screen
+
+Testimonial Block
+
+- everything enclosed within a section with a
+  class of block
+- after heading we enclosed the image and quotes section
+  within a div and then gave it a class of grid--1X2
+  and container (so it has a max-width).
+
+Footer
+
+-use the block the conatiner
+
+- using collapsibles that we previously built
+- using grid , to make the layout responsive
+- used order function to make the logo appear
+  first on thr grid on dekstop
+- also used list to define list within
+  the collapsibles
