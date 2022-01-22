@@ -125,3 +125,18 @@ Features block
 - using grid--1X2
 - using order property to switch the order for each alternate feature
 - all the content is contained within a container block
+
+Showcase Block
+
+- we put everything within a section
+- used grid--1X2
+- put heading outside the grid
+- everthing was withing a section, and the
+  section was dark block
+- the grid and image was withing a div, which
+  had a class of container and grid
+- the image was then set to have width auto but
+  max-width of 700px, prevents it from being violently
+  big
+- visibility is visible by default, so we set the
+  justify self to end and let a part of it be outside the screen

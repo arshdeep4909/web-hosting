@@ -15,7 +15,12 @@
   box-sizing: border-box;
 }
 /*----Typography ----*/
-
+::selection {
+  background: var(--color-primary);
+  color: #fff;
+}
+/* Selection, this edits the styling when we select
+a text on our page  */
 html {
   font-size: 62.5%;
 }
@@ -51,6 +56,7 @@ h2 {
 
 h3 {
   font-size: 3rem;
+  font-weight: 500;
 }
 
 p {
@@ -416,6 +422,7 @@ in our webpage it is grouped with a SEARCH button */
 
 .media {
   display: flex;
+  margin-bottom: 4rem;
 }
 
 .media__title {
@@ -622,12 +629,12 @@ in our webpage it is grouped with a SEARCH button */
 }
 
 .block--skewed-right {
-  clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 80%);
+  clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 90%);
   padding-bottom: calc(var(--padding-vertical) + 4rem);
 }
 
 .block--skewed-left {
-  clip-path: polygon(0% 0%, 100% 0%, 100% 80%, 0% 100%);
+  clip-path: polygon(0% 0%, 100% 0%, 100% 90%, 0% 100%);
   padding-bottom: calc(var(--padding-vertical) + 4rem);
 }
 
@@ -782,5 +789,37 @@ in our webpage it is grouped with a SEARCH button */
 @media screen and (min-width: 768px) {
   .block-feature:nth-of-type(even) .block-feature__content {
     order: 2;
+  }
+}
+
+/* Showcase  */
+
+.showcase .container {
+  overflow: visible;
+}
+.showcase__image {
+  width: 100%;
+}
+
+.showcase__icon {
+  opacity: 0.7;
+}
+
+.showcase .media__title {
+  color: #fff;
+}
+
+.showcase {
+  padding-bottom: 20rem;
+}
+
+@media screen and (min-width: 768px) {
+  .showcase .grid {
+    grid-template-columns: 50% 50%;
+  }
+  .showcase__image {
+    width: auto;
+    max-width: 700px;
+    justify-self: end;
   }
 }
