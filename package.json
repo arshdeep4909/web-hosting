@@ -1,0 +1,23 @@
+{
+  "name": "web-hosting",
+  "version": "1.0.0",
+  "description": "typo graphy",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arshdeep4909/web-hosting.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arshdeep4909/web-hosting/issues"
+  },
+  "homepage": "https://github.com/arshdeep4909/web-hosting#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  }
+}
