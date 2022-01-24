@@ -824,7 +824,7 @@ in our webpage it is grouped with a SEARCH button */
   }
 }
 
-/* Footer */
+/* --------------------------Footer---------------------------- */
 
 .footer {
   background: #232323;
@@ -882,7 +882,6 @@ in our webpage it is grouped with a SEARCH button */
     grid is 0, so if we set it to -1 it takes the first 
     grid */
   }
-
   .footer__brand img {
     width: 100%;
   }

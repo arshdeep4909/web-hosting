@@ -1,0 +1,12 @@
+{
+  "folders": [
+	{
+		"name": "web-hosting",
+		"path": "."
+	}
+],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "web-hosting",
+    "git.ignoreLimitWarning": true
+  }
+}
